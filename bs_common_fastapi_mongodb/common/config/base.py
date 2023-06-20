@@ -10,3 +10,6 @@ class MongoConfig(BaseConfig):
     MONGODB_DRIVER: str = os.getenv('MONGODB_DRIVER')
     MONGODB_ARGS: str = os.getenv('MONGODB_ARGS')
     MONGODB_URI: str = f'{MONGODB_DRIVER}://{MONGODB_USER}:{MONGODB_PASS}@{MONGODB_HOST}/{MONGODB_ARGS}'
+
+
+mongo_settings = MongoConfig()

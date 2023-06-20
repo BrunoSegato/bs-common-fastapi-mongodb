@@ -22,13 +22,13 @@ trio = ["trio (<0.22)"]
 
 [[package]]
 name = "bs-common-fastapi"
-version = "0.3.0"
+version = "0.3.1"
 description = ""
 optional = false
 python-versions = ">=3.11,<4.0"
 files = [
-    {file = "bs_common_fastapi-0.3.0-py3-none-any.whl", hash = "sha256:3d4a93da778a3672aa33c323298344016e46b1120e3b5c4794fd5360c87ce796"},
-    {file = "bs_common_fastapi-0.3.0.tar.gz", hash = "sha256:4e475bfd3ec5af989e0a5a08367175055ad8c176cf73d97d43746ec458c73a21"},
+    {file = "bs_common_fastapi-0.3.1-py3-none-any.whl", hash = "sha256:2975b9f82d0c348f6205645259a9aac0a6b8b75bbf33d5ca00de8bf410e5bfb9"},
+    {file = "bs_common_fastapi-0.3.1.tar.gz", hash = "sha256:f63a9315b3dc09c57aa9cb79e87fec78825eb86b8adb161d565c90ee64e1fd42"},
 ]
 
 [package.dependencies]
@@ -294,4 +294,4 @@ files = [
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.11"
-content-hash = "31dc55fdb077a07716747d6f28998dc43af92f190a70958e93477ff5df09441a"
+content-hash = "6fa3adf0424155057631c92ed712879a3cc8d13661b4b227cbd941ad33bc0168"

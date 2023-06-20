@@ -3,7 +3,7 @@ from abc import abstractmethod
 
 from bson.errors import InvalidId
 from bson.objectid import ObjectId
-from bs_common_fastapi.common.config.base import BaseConfig
+from bs_common_fastapi.common.config.base import base_settings
 from bs_common_fastapi.common.exception import NotFoundException, AppException
 from pydantic.utils import deep_update
 
@@ -41,7 +41,7 @@ class BaseApplication:
 
     async def find_all(
             self,
-            limit: int = BaseConfig.APP_MAX_LIMIT_VALUE,
+            limit: int = base_settings.APP_MAX_LIMIT_VALUE,
             skip: int = 0,
             query: dict | None = None,
             sort: dict | None = None,
