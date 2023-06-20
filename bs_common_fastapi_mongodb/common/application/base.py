@@ -21,7 +21,7 @@ class BaseApplication:
 
     @property
     def db(self):
-        return self.__db
+        return self.__db[self.collection_name]
 
     @staticmethod
     def datetime_now(str_format: str = '%Y-%m-%d %H:%M:%S'):
